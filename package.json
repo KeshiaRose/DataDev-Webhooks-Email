@@ -1,0 +1,26 @@
+{
+  "name": "datadev-webhooks-email",
+  "version": "1.0.0",
+  "description": "A simple app to send emails from Tableau Server Webhooks.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "@sendgrid/mail": "^6.5.4",
+    "node-fetch": "^2.6.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/datadev-webhooks-email"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
