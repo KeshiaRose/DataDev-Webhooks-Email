@@ -1,0 +1,30 @@
+{
+    "name": "Webhooks Email Sample",
+    "description": "A simple app to send emails from Tableau Server Webhooks",
+    "repository": "https://github.com/KeshiaRose/datadev-webhooks-email",
+    "keywords": ["tableau", "webhooks", "datadev"],
+    "env": {
+        "SENDGRID_API_KEY": {
+            "description": "Your SendGrid API Key."
+        },
+        "PAT_NAME": {
+            "description": "Your Personal Access Token Name."
+        },
+        "PAT_SECRET": {
+            "description": "Your Personal Access Token Secret."
+        },
+        "SERVER": {
+            "description": "Your Tableau Server address. Include protocol."
+        },
+        "SITE_NAME": {
+            "description": "Your Tableau site content URL."
+        },
+        "Version": {
+            "description": "The Tableau REST API version.",
+            "value": "3.8"
+        },
+        "MY_EMAIL": {
+            "description": "An email addreess to use with the sample."
+        }
+    }
+}
