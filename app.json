@@ -19,7 +19,7 @@
         "SITE_NAME": {
             "description": "Your Tableau site content URL."
         },
-        "Version": {
+        "VERSION": {
             "description": "The Tableau REST API version.",
             "value": "3.8"
         },
