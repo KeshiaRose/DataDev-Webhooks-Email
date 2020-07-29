@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
     res
         .status(406)
         .send(
-            '<p style="text-align:center;margin:50px;font-family:Benton Sans, Helvetica, Arial;">Hi! 😊 This app only speaks REST. Check out the <a href="https://glitch.com/edit/#!/datadev-webhooks-email">Source CSode</a></p>'
+            '<p style="text-align:center;margin:50px;font-family:Benton Sans, Helvetica, Arial;">Hi! 😊 This app only speaks REST. Check out the <a href="https://glitch.com/edit/#!/datadev-webhooks-email">source code</a></p>'
         );
 });
 
