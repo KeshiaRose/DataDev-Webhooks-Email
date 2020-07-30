@@ -17,7 +17,7 @@ A sample app that sends out emails based on data source refresh successes on Tab
 
 ## How to set it up - Heroku
 
-1. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KeshiaRose/datadev-webhooks-email)
 1. Hit the "Deploy to Heroku" button and edit the evironment variables to match your Tableau Server/Online and SendGrid credentials
 1. [Create a new webhook](https://github.com/tableau/webhooks-docs) using the REST API with `https://your-app.herokuapp.com/DatasourceRefreshSucceeded` as the endpoint.
 1. Trigger the webhook and receive an email!
