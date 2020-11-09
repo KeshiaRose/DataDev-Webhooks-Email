@@ -1,3 +1,5 @@
+![Working!](https://img.shields.io/badge/Status-Working-brightgreen)
+
 # Webhooks Email Sample
 
 A sample app that sends out emails based on data source refresh successes on Tableau Server using webhooks.
